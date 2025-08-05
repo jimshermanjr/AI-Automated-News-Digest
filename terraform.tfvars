@@ -1,0 +1,8 @@
+senderEmail          = "FILL ME IN"
+lambda_role_name     = "FILL ME IN"
+function_name        = "newsDigestFunction"
+lambda_source_path   = "./lambdaCode/lambda.zip"
+handler              = "lambda.lambda_handler"
+runtime              = "python3.10"
+lambda_role_arn      = "FILL ME IN"
+schedule_expression  = "rate(5 minutes)"
