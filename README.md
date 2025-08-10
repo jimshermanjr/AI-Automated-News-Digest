@@ -5,4 +5,4 @@ The infrastrucutre is current deployable and functioning.
 
 The python function is also working. We are successfully able to extract urls from relevant news articles (in this case, we are focusing on sports), parse the data from the urls using BeautifulSoup to gain article contents, pass these article contents into openAi model o4-mini to gain a unique title and summary, and format each summary into a correct html format. This would send emails correctly in AWS
 
-All I need to do is package some of the 3rd party libaries (openAi, requests, bs4) locally so I can deploy to AWS
+All I need to do is package some of the 3rd party libaries (openAi, requests, bs4) locally so I can deploy to AWS. I'll need to set up a Docker container locally so I can install all the necessary dependencies in a Linux environment, which is necessary for it to run in AWS. 
